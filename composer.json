@@ -11,6 +11,12 @@
         "typo3/neosdemotypo3org": "dev-master",
         "typo3/sitekickstarter": "dev-master"
     },
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"git://git.typo3.org/Packages/TYPO3.T3PL.git"
+        }
+    ],
     "require-dev": {
         "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.2.*",
